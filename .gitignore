@@ -1,0 +1,43 @@
+# ==========================================
+# 1. Archivos de configuración de Qt Creator
+# ==========================================
+# (Se ignoran los archivos de usuario, pero se suben los .pro o CMakeLists.txt)
+*.user
+*.pro.user
+
+# ==========================================
+# 2. Carpetas de compilación (Build)
+# ==========================================
+build-*/
+
+# ==========================================
+# 3. Archivos compilados y ejecutables
+# ==========================================
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.so
+*.dll
+
+# ==========================================
+# 4. Archivos basura del Sistema Operativo
+# ==========================================
+# Linux
+*~
+.directory
+.Trash-*
+.cache/
+*.swp
+*.swo
+*.un~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
